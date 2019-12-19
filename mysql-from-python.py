@@ -11,7 +11,7 @@ connection = pymysql.connect(host = 'localhost',
                             user = username,
                             password = '',
                             db = 'Chinook')
-
+# Test
 try:
     #Run a query
     with connection.cursor() as cursor:
